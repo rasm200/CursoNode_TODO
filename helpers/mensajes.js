@@ -3,7 +3,7 @@ require('colors');
 const monstrarMenu = () => {
 
     return new Promise( resolve => {
-
+let contador = 0;
         console.clear();
     
         console.log('=============================='.green);
